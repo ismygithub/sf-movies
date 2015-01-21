@@ -1,6 +1,6 @@
 uber-SF-movies
 
-a web shows a map where movies have been filmed in San
+a local host web shows a map where movies have been filmed in San
 Francisco.
 
 The data is from datasf at https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am?

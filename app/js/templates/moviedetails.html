@@ -1,0 +1,14 @@
+<div class="city-search">
+<div class="content">
+<p><strong>{{=Title}}</strong> - {{=Locations}}</p>
+<hr/>
+<p><strong>Release Year</strong> - {{=ReleaseYear}}</p>
+<p><strong>Director</strong> - {{=Director}}</p>
+{{if (Actor1) { }}
+	<p><strong>Actor(s)/Actress(es)</strong> - {{=Actor1}}{{if (Actor2) { }}, {{=Actor2}}{{ } }}{{if (Actor3) { }}, {{=Actor3}}{{ } }}</p>
+{{ } }}
+{{if (FunFacts) { }}<p><strong>Fun Facts</strong> - {{=FunFacts}}</p>{{ } }}
+
+
+</div>
+</div>

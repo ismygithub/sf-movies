@@ -1,0 +1,41 @@
+.search-holder {
+	position: static;
+}
+.global-header {
+	width: auto;
+	font-size: 2em;
+	position: absolute;
+	border: 0px none;
+	right: 30px;
+	width: auto;
+    display: none;
+}
+.searcher {
+	top: 30px;
+	left: 0px;
+}
+.city-search .city-list {
+	overflow: hidden;
+}
+.search-holder.detail-holder {
+	position: relative;
+}
+.search-holder.detail-holder .searcher {
+	top: -350px;
+}
+.search-holder.detail-holder p {
+	padding-top: 5px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	color: #070716;
+	line-height: 28px;
+}
+.search-holder.detail-holder .searcher .city-search {
+    left: 500px;
+	max-width: 500px;
+}
+.detail-holder .content {
+	background: yellow;
+	padding: 5px;
+}
+
